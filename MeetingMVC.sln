@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC.DBEngine", "MVC.DBEngine\MVC.DBEngine.csproj", "{DBFE384A-846C-47DE-A574-44A71A46C37E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.API", "Meeting.API\Meeting.API.csproj", "{B0087540-1191-4C35-A596-A649696C93C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.Framework", "Meeting.Framework\Meeting.Framework.csproj", "{1EA63648-C31C-46D5-9EBC-DBD1BC92465D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.Models", "Meeting.Models\Meeting.Models.csproj", "{A0FB73FB-567F-460C-9AFF-087DDE8022C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.Repository", "Meeting.Repository\Meeting.Repository.csproj", "{68DCA1F8-5BA0-4A0F-8E0E-3DE554CC1213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.Service", "Meeting.Service\Meeting.Service.csproj", "{6BB76D9F-9E82-4955-996C-1B600EB6A397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVMS1.MVC", "..\MVMS.MVC\MVMS.MVC\MVMS1.MVC.csproj", "{19D69FC7-BBA1-4EB7-B7B5-D279BCAFD58E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFE384A-846C-47DE-A574-44A71A46C37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFE384A-846C-47DE-A574-44A71A46C37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFE384A-846C-47DE-A574-44A71A46C37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFE384A-846C-47DE-A574-44A71A46C37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0087540-1191-4C35-A596-A649696C93C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0087540-1191-4C35-A596-A649696C93C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0087540-1191-4C35-A596-A649696C93C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0087540-1191-4C35-A596-A649696C93C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA63648-C31C-46D5-9EBC-DBD1BC92465D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA63648-C31C-46D5-9EBC-DBD1BC92465D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA63648-C31C-46D5-9EBC-DBD1BC92465D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA63648-C31C-46D5-9EBC-DBD1BC92465D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FB73FB-567F-460C-9AFF-087DDE8022C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FB73FB-567F-460C-9AFF-087DDE8022C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FB73FB-567F-460C-9AFF-087DDE8022C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FB73FB-567F-460C-9AFF-087DDE8022C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DCA1F8-5BA0-4A0F-8E0E-3DE554CC1213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DCA1F8-5BA0-4A0F-8E0E-3DE554CC1213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DCA1F8-5BA0-4A0F-8E0E-3DE554CC1213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DCA1F8-5BA0-4A0F-8E0E-3DE554CC1213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB76D9F-9E82-4955-996C-1B600EB6A397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB76D9F-9E82-4955-996C-1B600EB6A397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB76D9F-9E82-4955-996C-1B600EB6A397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB76D9F-9E82-4955-996C-1B600EB6A397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D69FC7-BBA1-4EB7-B7B5-D279BCAFD58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D69FC7-BBA1-4EB7-B7B5-D279BCAFD58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D69FC7-BBA1-4EB7-B7B5-D279BCAFD58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D69FC7-BBA1-4EB7-B7B5-D279BCAFD58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A646561-8918-490E-A196-B882187022DC}
+	EndGlobalSection
+EndGlobal
